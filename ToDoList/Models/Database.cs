@@ -6,9 +6,9 @@ namespace ToDoList.Models
 {
   public class DB
   {
-    public staticMySqlConnection Connection()
+    public static MySqlConnection Connection()
     {
-      staticMySqlConnection conn = new staticMySqlConnection(BDConfiguration.ConnectionString);
+      MySqlConnection conn = new MySqlConnection(DBConfiguration.ConnectionString);
       return conn;
     }
   }
