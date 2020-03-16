@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
-// test
 
 namespace ToDoList.Models
 {
@@ -59,7 +58,7 @@ namespace ToDoList.Models
 
     public static Item Find(int searchId)
     {
-      Item placeholderItem = new Item(placeholder item);
+      Item placeholderItem = new Item("placeholder item");
       return placeholderItem;
     }
 
